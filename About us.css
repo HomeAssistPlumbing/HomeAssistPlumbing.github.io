@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(2, 6, 33, 0.85);
+    /*background-image: linear-gradient(180deg, blue, orange, green)*/
+}
+.About-us {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color:  rgb(255, 255, 255);
+    background-color: rgba(2, 6, 33, 85%);
+    box-shadow: 0 0 3px 2px rgb(217, 210, 210);
+    width: 97%;
+  }
+  .About-us p{
+    margin: 15px;
+  }
+  .contact-us {
+    display: block;
+    font-weight: bolder;
+    margin-left: 20px;
+  }
+  .address {
+    box-shadow: 0 0 1px 1px rgb(176, 163, 163);
+    width: 70px;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-weight: 800;
+    font-size: 5px;
+    color:rgb(233, 85, 0);
+    display: inline;
+  }
+  .marker {
+    margin-left: 10px;
+    margin-top: 11px;
+    margin-bottom: auto;
+    margin-right: 4px;
+    height: 23px;
+    display: inline;
+    background-color: #dde1e7;
+    border-radius: 20%;
+    border-right: none;
+  }
+  .contact {
+    box-shadow: 0 0 3px 2px rgb(176, 163, 163);
+    width: 522px;
+    height: auto;
+    margin-bottom: 4px;
+    font-weight: 800;
+    color:rgb(233, 85, 0);
+    display: flex;
+    flex-direction: row; 
+  }
+  footer {
+    margin-top: 120px;
+    position: bottom;
+    display: block;
+    flex-direction: row;    
+  }
+  footer a, footer p {
+    margin-left: 10px;
+    color:rgb(233, 85, 0);
+    justify-content: flex-start;
+  }
+  .fa {
+    padding: 0px;
+    text-align: center;
+    margin: 5px 10px;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    height: 25px;
+    justify-content: flex-end;
+  }
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+    border-radius: 50%;
+  }
+  .fa-twitter {
+    background: #55acee;
+    border-radius: 50%;
+  }
+  .fa-github {
+    background-color: #dde1e7;
+    border-radius: 100%;
+  }
+  .fa:hover {
+    opacity: 0.9;
+  }
+  .whatsaap {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 200px;
+    right: 200px;
+  }
+  .whatsaap-img{
+    width: 100%;
+    height: 100%;
+  }

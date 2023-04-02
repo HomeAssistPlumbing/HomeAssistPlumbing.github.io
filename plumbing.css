@@ -1,0 +1,346 @@
+body{
+  width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(2, 6, 33, 0.85);
+    /*background-image: linear-gradient(180deg, blue, orange, green)*/
+}
+.header {
+    height: 3.125em;
+    background-color: rgb(214, 210, 210);
+    display: block;
+    font-weight: bolder;
+    margin-left: 0px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-top: -0.700em;   
+    font-size: 1.375em;
+    font-weight: bolder;
+    color: rgb(233, 85, 0);
+    list-style-type: square;
+    width: 100vw;
+}
+.menu-icon div{
+    width: 1.563em;
+    height: 0.25em;
+    background-color: black;
+    margin: 0.25em 0;
+    justify-content: flex-end;
+}
+.menu-button {
+    border: 0px;
+}
+.menu-button:hover {
+    background-color: rgb(5, 241, 5);
+}
+.menu {
+    margin-right: 0.625em;
+    margin-top: 0.375em;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0px;
+}
+.intro {
+    height: 42.5em;
+    width: 100vw;
+    background-image: url(./double\ basin2.jpg);
+    background-size: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 0;
+    background-repeat: no-repeat;
+}
+.hi {
+    color: white;
+    font-size: 2.813em;
+    margin-top: 1em;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    font-weight: 750;
+
+}
+.gaper {
+    border-bottom: 0.25em solid rgba(2, 6, 33, 0.85);
+    width: 28.125em;
+    margin: 0 auto;
+    margin-top: -1.563em;
+    justify-items: center;
+}
+.hook {
+    color: white;
+    margin-top: 1em;
+    font-size: 1.563em;
+}
+#description, #quantity, #click, #remarks, #default, #name, #cellphone, #email {
+    border-bottom: 1px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    display: block;
+    height: 1.875em;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 0.313em;
+    margin-top: 0.375em;
+    margin: 0.313em;
+    font-size: 0.875em;
+    font-weight: 300;
+    overflow-y: scroll;
+}
+.center,.content
+{
+  position:absolute;
+  top: 140%;
+  left: 75%;
+  transform:translate(-50%, -65%);
+}
+.click-me
+{
+  display:block;
+  width:10em;
+  height: 3.125em;
+  background: #dde1e7;
+  box-shadow: -3px -3px 7px rgba(2, 6, 33, 0.85), 3px 3px 5px rgba(94, 104, 121, 0.342);
+  text-align:center;
+  font-size: 1.375em;
+  line-height: 3.125em;
+  cursor: pointer;
+  border-radius: 0.313em;
+}
+.click-me:hover {
+  background-color: rgb(233, 85, 0);
+}
+#click
+{
+  display:none;
+}
+.click-me:hover
+{
+  color: #0a5878;
+}
+.content
+{
+  visibility:hidden;  
+  width: 25em;
+  height: auto;
+  background: #dde1e7;
+  padding: 1.875em 2.188em 2.5em;
+  box-sizing: border-box;
+  border-radius: 0.313em;
+  margin: 0.313em;
+  box-shadow: 3px -3px 10px black;
+}
+#temp
+{
+  position:absolute;
+  right: 0.313em;
+  top: 0px;
+  font-size: 1.125em;
+  background: #dde1e7;
+  padding: 0px;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  border-radius: 5%;
+  cursor:pointer;
+  color: red;
+  box-shadow: 0 0 2px 1px white;
+}
+#click:checked~.content
+{
+  opacity:1;
+  visibility:visible;
+}
+.text
+{
+  font-size: 1.125em;
+  color:rgb(233, 85, 0);
+  font-weight: 800;
+  text-align: left;
+  letter-spacing: 1px;
+}
+form
+{
+  margin-top: 2.5em;
+}
+label
+{
+  display: block;
+  margin-top: 1.875em;
+  font-size: 1em;
+  font-weight: 750;
+}
+::placeholder
+{
+  color: #4b4e4d;
+  padding-left: 0.625em;
+}
+.order-button {
+    height: 1.563em;
+    width: 8.125em;
+    border-radius: 0.313em;
+    border: 2px solid rgba(2, 6, 33, 0.85);
+    margin: 50px auto 0.938em 4.375em;
+    color: green; 
+}
+.order-button:hover {
+    background-color: rgb(233, 85, 0);
+}
+.services {
+    border-radius: 0.313em;
+    margin-top: 0.125em;
+    background-color: rgba(2, 6, 33, 85%);
+    font-weight: 600;
+    color: white;
+    width: fit-content;
+    text-align: start;
+}
+.services:hover {
+  color: rgb(233, 85, 0);
+}
+.jet1 {
+    font-weight: 900;
+    color:rgb(5, 241, 5);
+    margin-left: 0.700em;
+}
+.quality {
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color:rgb(255, 241, 255);
+    margin-left: 0.938em;
+}
+.gallery {
+    width: fit-content;
+    margin-bottom: 0.25em;
+    font-weight: 800;
+    font-size: xx-large;
+    color:rgb(233, 85, 0);
+    
+}
+.projects-gallery {
+  display: flex;
+  flex-direction: column;
+  width: 11.250em;
+  height: auto;
+  margin-left: 0.938em;
+}
+.logo {
+  margin: 1.25em auto;
+  color:rgb(233, 85, 0);
+  font-weight: bolder;
+  font-size: 2.063em;
+  list-style-type: square;
+}
+.breaker {
+  width: 28.125em;
+  border-bottom: 0.25em solid rgb(214, 210, 210);
+  margin-top: -2.750em;
+  justify-items: center;
+}
+.About-us {
+  margin-top: 1.875em;
+  margin-left: auto;
+  margin-right: auto;
+  color:  rgb(255, 255, 255);
+  background-color: rgba(2, 6, 33, 85%);
+  box-shadow: 0 0 3px 2px rgb(217, 210, 210);
+  width: 97vw;
+}
+.About-us p{
+  margin: 0.938em;
+}
+.services-we-offer {
+  color: #ffffff;
+  margin-top: 1.875em;
+}
+.services-we-offer li {
+  margin-bottom: 1.25em;
+}
+.new-installations, .servicing-repair{
+  font-size: 1.438em;
+  color:rgb(5, 241, 5);
+  list-style: square;
+}
+.new-installations {
+  margin-top: -0.625em;
+  padding-top: 0;
+}
+.contact-us {
+  display: block;
+  font-weight: bolder;
+  margin-left: 1.25em;
+}
+.address {
+  width: 4.375em;
+  height: auto;
+  margin-bottom: 0;
+  margin-left: 0.625em;
+  font-weight: 800;
+  font-size: 5px;
+  color:rgb(233, 85, 0);
+  display: inline;
+}
+.marker {
+  margin-top: 15px;
+  margin-bottom: auto;
+  margin-right: 0;
+  height: 3.438em;
+  display: inline;
+}
+.contact {
+  box-shadow: -3px 3px 2px rgb(176, 163, 163);
+  width: 30em;
+  height: auto;
+  margin-bottom: 0.25em;
+  font-weight: 800;
+  color:rgb(233, 85, 0);
+  display: flex;
+  flex-direction: row; 
+}
+footer {
+  margin-top: 7.5em;
+  position: bottom;
+  display: block;
+  flex-direction: row;    
+}
+footer a, footer p {
+  margin-left: 0.600em;
+  color:rgb(233, 85, 0);
+  justify-content: flex-start;
+}
+.fa {
+  padding: 0px;
+  text-align: center;
+  margin: 0.313em 0.625em;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  height: 1.563em;
+  justify-content: flex-end;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  border-radius: 50%;
+}
+.fa-twitter {
+  background: #55acee;
+  border-radius: 50%;
+}
+.fa-github {
+  background-color: #dde1e7;
+  border-radius: 100%;
+}
+.fa:hover {
+  opacity: 0.9;
+}
+.whatsaap {
+  border-radius: 50%;
+  height: 2.5em;
+  width: 2.5em;
+  position: fixed;
+  bottom: 12.5em;
+  right: 6.25em;
+}
+.whatsaap-img{
+  width: 100%;
+  height: 100%;
+}
