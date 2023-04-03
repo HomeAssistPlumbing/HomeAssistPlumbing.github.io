@@ -301,7 +301,7 @@ footer {
   position: bottom;
   display: block;
   flex-direction: row;
-  background-color: #ddelel    
+  background-color: #ddelel;    
 }
 footer a, footer p {
   margin-left: 0.600em;
