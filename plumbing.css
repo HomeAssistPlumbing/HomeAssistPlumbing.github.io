@@ -279,11 +279,11 @@ label
   color:rgb(233, 85, 0);
   display: inline;
 }
-.marker {
+.fa-marker {
   margin-top: 15px;
   margin-bottom: auto;
   margin-right: 0;
-  height: 3.438em;
+  height: 3em;
   display: inline;
 }
 .contact {
@@ -300,7 +300,8 @@ footer {
   margin-top: 7.5em;
   position: bottom;
   display: block;
-  flex-direction: row;    
+  flex-direction: row;
+  background-color: #ddelel    
 }
 footer a, footer p {
   margin-left: 0.600em;
