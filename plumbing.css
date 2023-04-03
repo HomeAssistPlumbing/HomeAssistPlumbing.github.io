@@ -3,6 +3,8 @@ body{
   background-color: rgba(2, 6, 33, 0.85);
   /*background-image: linear-gradient(180deg, blue, orange, green)*/
   font-size: 16px
+  margin: 0;
+  padding: 0;
 }
 .header {
     height: 3.125em;
@@ -43,7 +45,7 @@ body{
 }
 .intro {
     height: 42.5em;
-    width: 100vw;
+    width: 100%;
     background-image: url(./double\ basin2.jpg);
     background-size: 100%;
     text-align: center;
@@ -57,7 +59,7 @@ body{
     margin-top: 1em;
     font-family: sans-serif, 'Times New Roman', Times, serif;
     font-weight: 750;
-
+    width: 100%
 }
 .gaper {
     border-bottom: 0.25em solid rgba(2, 6, 33, 0.85);
@@ -70,6 +72,7 @@ body{
     color: white;
     margin-top: 1em;
     font-size: 1.563em;
+    width: 100%;
 }
 #description, #quantity, #click, #remarks, #default, #name, #cellphone, #email {
     border-bottom: 1px solid black;
@@ -201,12 +204,14 @@ label
     font-weight: 900;
     color:rgb(5, 241, 5);
     margin-left: 0.700em;
+    width: 100%;
 }
 .quality {
     font-family: sans-serif, 'Times New Roman', Times, serif;
     font-weight: 700;
     color:rgb(255, 241, 255);
     margin-left: 0.938em;
+    width: 100%;
 }
 .gallery {
     width: fit-content;
@@ -244,6 +249,7 @@ label
   background-color: rgba(2, 6, 33, 85%);
   box-shadow: 0 0 3px 2px rgb(217, 210, 210);
   width: 100vw;
+  width: 100%;
 }
 .About-us p{
   margin: 0.938em;
@@ -251,6 +257,7 @@ label
 .services-we-offer {
   color: #ffffff;
   margin-top: 1.875em;
+  width: 100%;
 }
 .services-we-offer li {
   margin-bottom: 1.25em;
@@ -273,16 +280,6 @@ bottom-margin: 1.563em;
   margin-left: 1.375em;
   bottom-margin: 0.313em;
 }
-.address {
-  width: 4.375em;
-  height: auto;
-  margin-bottom: 0;
-  margin-left: 0.625em;
-  font-weight: 800;
-  font-size: 5px;
-  color:rgb(233, 85, 0);
-  display: inline;
-}
 .fa-marker {
   margin-top: 15px;
   margin-bottom: auto;
@@ -301,6 +298,7 @@ bottom-margin: 1.563em;
   flex-direction: row; 
 }
 footer {
+  padding-top: 0.313em;
   margin-top: 7.5em;
   position: bottom;
   display: block;
