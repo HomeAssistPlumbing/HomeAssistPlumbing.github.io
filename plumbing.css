@@ -93,7 +93,7 @@ body{
 .center,.content
 {
   position:absolute;
-  top: 110%;
+  top: 95%;
   left: 85%;
   transform:translate(-40%, -75%);
 }
