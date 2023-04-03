@@ -20,6 +20,8 @@ body{
     color: rgb(233, 85, 0);
     list-style-type: square;
     width: 100vw;
+    top: 0;
+    position: fixed;
 }
 .menu-icon div{
     width: 1.563em;
@@ -301,7 +303,9 @@ footer {
   position: bottom;
   display: block;
   flex-direction: row;
-  background-color: #ddelel;    
+  background-color: white;
+  position: fixed;
+  bottom: 0;    
 }
 footer a, footer p {
   margin-left: 0.600em;
