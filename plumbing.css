@@ -271,7 +271,7 @@ bottom-margin: 1.563em;
   display: block;
   font-weight: bolder;
   margin-left: 1.375em;
-  bottom-margin: 0.625em;
+  bottom-margin: 0.313em;
 }
 .address {
   width: 4.375em;
@@ -318,7 +318,7 @@ footer a, footer p {
 .fa {
   padding: 0px;
   text-align: center;
-  margin: 0.313em 0.625em;
+  margin: 0em 0.625em;
   width: fit-content;
   display: flex;
   flex-direction: row;
@@ -403,10 +403,10 @@ footer a, footer p {
   .btn {
     font-size: 16px;
     padding: 12px 24px;
-. main {
-Width: 100vw;
 }
-  }
+.main {
+width: 100vw;
+}
 }
 
 /* Styles for large screens */
