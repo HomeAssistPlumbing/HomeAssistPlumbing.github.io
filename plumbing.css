@@ -234,6 +234,7 @@ label
   font-weight: bolder;
   font-size: 2.063em;
   list-style-type: square;
+  text-align: center;
 }
 .breaker {
   width: 28.125em;
@@ -299,7 +300,7 @@ bottom-margin: 1.563em;
 }
 footer {
   padding-top: 0.313em;
-  margin-top: 7.5em;
+  margin-top: 0.5em;
   margin-bottom: 0.313em;
   display: block;
   flex-direction: row;
@@ -307,10 +308,9 @@ footer {
   position: fixed;
   height: 2.563em;    
 }
-footer a, footer p {
+footer > p {
   margin-left: 0.600em;
   color:rgb(233, 85, 0);
-  justify-content: flex-start;
 }
 .fa {
   padding: 0px;
