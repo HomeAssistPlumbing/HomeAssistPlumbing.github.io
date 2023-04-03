@@ -307,9 +307,9 @@ footer {
   flex-direction: row;
   background-color: white;
   position: fixed;
-  height: 2.563em;    
+  height: 2.8em;    
 }
-footer > p {
+footer p {
   margin-left: 0.600em;
   color:rgb(233, 85, 0);
 }
