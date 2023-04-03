@@ -262,6 +262,9 @@ label
   color:rgb(5, 241, 5);
   list-style: square;
 }
+ .service-repair{
+bottom-margin: 1.563em;
+}
 .new-installations {
   margin-top: -0.625em;
   padding-top: 0;
@@ -269,7 +272,8 @@ label
 .contact-us {
   display: block;
   font-weight: bolder;
-  margin-left: 1.25em;
+  margin-left: 1.375em;
+  bottom-margin: 0.625em;
 }
 .address {
   width: 4.375em;
@@ -305,7 +309,8 @@ footer {
   flex-direction: row;
   background-color: white;
   position: fixed;
-  bottom: 0;    
+  bottom: 0;
+  height: fit-content;    
 }
 footer a, footer p {
   margin-left: 0.600em;
