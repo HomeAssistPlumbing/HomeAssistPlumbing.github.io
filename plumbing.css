@@ -12,7 +12,7 @@ body{
     display: block;
     font-weight: bolder;
     margin-left: 0px;
-    margin-bottom: auto;
+    margin-bottom: 0;
     margin-right: auto;
     margin-top: -0.700em;   
     font-size: 1.375em;
@@ -206,6 +206,7 @@ label
     margin-left: 0.700em;
     margin-top: 2em;
     width: 100%;
+    margin-right: 0;
 }
 .quality {
     font-family: sans-serif, 'Times New Roman', Times, serif;
