@@ -44,7 +44,7 @@ body{
     padding: 0px;
 }
 .intro {
-    height: 42.5em;
+    height: auto;
     width: 100%;
     background-image: url(./double\ basin2.jpg);
     background-size: 100%;
@@ -204,6 +204,7 @@ label
     font-weight: 900;
     color:rgb(5, 241, 5);
     margin-left: 0.700em;
+    margin-top: -15em;
     width: 100%;
 }
 .quality {
