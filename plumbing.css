@@ -300,12 +300,11 @@ bottom-margin: 1.563em;
 footer {
   padding-top: 0.313em;
   margin-top: 7.5em;
-  position: bottom;
+  margin-bottom: 0.313em;
   display: block;
   flex-direction: row;
   background-color: white;
   position: fixed;
-  bottom: 0;
   height: 2.563em;    
 }
 footer a, footer p {
