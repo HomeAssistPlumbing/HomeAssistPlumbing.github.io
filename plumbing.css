@@ -271,7 +271,7 @@ label
   list-style: square;
 }
  .service-repair{
-bottom-margin: 1.563em;
+margin-bottom: 1.563em;
 }
 .new-installations {
   margin-top: -0.625em;
@@ -281,7 +281,7 @@ bottom-margin: 1.563em;
   display: block;
   font-weight: bolder;
   margin-left: 1.375em;
-  bottom-margin: 0.313em;
+  margin-bottom: 0.313em;
 }
 .fa-marker {
   margin-top: 15px;
