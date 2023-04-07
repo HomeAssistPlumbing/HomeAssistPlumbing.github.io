@@ -300,16 +300,15 @@ margin-bottom: 1.563em;
   display: flex;
   flex-direction: row; 
 }
-footer {
+/*footer {
   padding-top: 0.313em;
   margin-top: 0.5em;
   margin-bottom: 0.313em;
   display: block;
   flex-direction: row;
-  background-color: white;
   position: fixed;
   height: 2.8em;    
-}
+}*/
 .fa {
   padding: 0px;
   text-align: center;
