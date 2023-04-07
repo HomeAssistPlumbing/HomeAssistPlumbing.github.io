@@ -291,7 +291,6 @@ margin-bottom: 1.563em;
   display: inline;
 }
 .contact {
-  box-shadow: -3px 3px 2px rgb(176, 163, 163);
   width: 30em;
   height: auto;
   margin-bottom: 0.25em;
@@ -299,24 +298,9 @@ margin-bottom: 1.563em;
   color:rgb(233, 85, 0);
   display: flex;
   flex-direction: row; 
-}
-/*footer {
-  padding-top: 0.313em;
-  margin-top: 0.5em;
-  margin-bottom: 0.313em;
-  display: block;
-  flex-direction: row;
-  position: fixed;
-  height: 2.8em;    
-}*/
-.fa {
   padding: 0px;
   text-align: center;
   margin: auto 0.625em;
-  width: fit-content;
-  display: flex;
-  flex-direction: row;
-  height: 1.563em;
   justify-content: flex-end;
 }
 .fa-facebook {
