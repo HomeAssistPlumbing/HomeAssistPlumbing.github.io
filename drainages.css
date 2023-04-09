@@ -45,90 +45,171 @@
     content: "";
     width: 800px;
   }
-  .contact-us {
-    display: block;
-    font-weight: bolder;
-    margin-left: 32px;
-  }
-  .address {
-    box-shadow: 0 0 1px 1px rgb(176, 163, 163);
-    width: 70px;
-    height: auto;
-    margin-bottom: 0;
-    margin-left: 10px;
-    font-weight: 800;
-    font-size: 5px;
-    color:rgb(233, 85, 0);
-    display: inline;
-  }
-  .marker {
-    margin-left: 10px;
-    margin-top: 11px;
-    margin-bottom: auto;
-    margin-right: 4px;
-    height: 23px;
-    display: inline;
-    background-color: #dde1e7;
-    border-radius: 20%;
-    border-right: none;
-  }
   .contact {
-    box-shadow: 0 0 3px 2px rgb(176, 163, 163);
-    width: fit-content;
-    height: auto;
-    margin-bottom: 4px;
-    margin-left: 10px;
-    font-weight: 800;
-    color:rgb(233, 85, 0);
-    display: flex;
-    flex-direction: row; 
+  width: 30em;
+  height: auto;
+  margin-bottom: 0.25em;
+  font-weight: 800;
+  color:rgb(233, 85, 0);
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  text-align: center;
+  margin: auto 0.625em;
+  bottom: 16.5em;
+  right: 3.25em;
+}
+.whatsaap {
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+  position: fixed;
+  bottom: 16.5em;
+  right: 3.25em;
+  background-color: white;
+}
+.whatsaap-img{
+  width: 100%;
+  height: 100%;
+}
+.fa-facebook {
+  background: white;
+  color: white;
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+  position: fixed;
+  bottom: 15em;
+  right: 3.25em;
+}
+.fa-twitter {
+  background: #55acee;
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+  position: fixed;
+  bottom: 13.5em;
+  right: 3.25em;
+}
+.fa-envelop-dot{
+  border-radius: 5%;
+  height: 1em;
+  width: 1em;
+  position: fixed;
+  bottom: 12em;
+  right: 3.25em;
+}
+.fa-phone-flip{
+background-color: #418101;
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+  position: fixed;
+  bottom: 10.5em;
+  right: 3.15em;
+  padding: 1px;
+  margin: 1px;
+}
+.fa-github {
+  background-color: #dde1e7;
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+  position: fixed;
+  bottom: 9em;
+  right: 3.25em;
+}
+.fa-globe{
+  background-color: white;
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+  position: fixed;
+  bottom: 7.5em;
+  right: 3.25em;
+}
+.fa-marker {
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+  position: fixed;
+  bottom: 6em;
+  right: 3.25em;
+}
+.fa:hover {
+  opacity: 0.9;
+}
+
+/* Mobile first approach */
+
+/* Common styles for all screen sizes */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Styles for small screens */
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0 10px;
   }
-  footer {
-    margin-top: 120px;
-    position: bottom;
-    display: block;
-    flex-direction: row;    
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
   }
-  footer a, footer p {
-    margin-left: 10px;
-    color:rgb(233, 85, 0);
-    justify-content: flex-start;
+  
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
   }
-  .fa {
-    padding: 0px;
-    text-align: center;
-    margin: 5px 10px;
-    width: fit-content;
-    display: flex;
-    flex-direction: row;
-    height: 25px;
-    justify-content: flex-end;
+  
+  .btn {
+    font-size: 14px;
+    padding: 10px 20px;
   }
-  .fa-facebook {
-    background: #3b5998;
-    color: white;
-    border-radius: 50%;
+}
+
+/* Styles for medium screens */
+@media screen and (min-width: 400px) and (max-width: 991px) {
+  h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
   }
-  .fa-twitter {
-    background: #55acee;
-    border-radius: 50%;
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
   }
-  .fa-github {
-    background-color: #dde1e7;
-    border-radius: 100%;
+  
+  .btn {
+    font-size: 16px;
+    padding: 12px 24px;
+}
+.main {
+width: 100vw;
+}
+}
+
+/* Styles for large screens */
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
   }
-  .fa:hover {
-    opacity: 0.9;
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
   }
-  .whatsaap {
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    position: fixed;
-    bottom: 200px;
-    right: 200px;
+  
+  .btn {
+    font-size: 18px;
+    padding: 14px 28px;
   }
-  .whatsaap-img{
-    width: 100%;
-    height: 100%;
-  }
+}
