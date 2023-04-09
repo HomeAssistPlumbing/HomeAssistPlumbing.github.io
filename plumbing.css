@@ -277,19 +277,6 @@ margin-bottom: 1.563em;
   margin-top: -0.625em;
   padding-top: 0;
 }
-.contact-us {
-  display: block;
-  font-weight: bolder;
-  margin-left: 1.375em;
-  margin-bottom: 0.313em;
-}
-.fa-marker {
-  margin-top: 15px;
-  margin-bottom: auto;
-  margin-right: 0;
-  height: 3em;
-  display: inline;
-}
 .contact {
   width: 30em;
   height: auto;
@@ -297,39 +284,92 @@ margin-bottom: 1.563em;
   font-weight: 800;
   color:rgb(233, 85, 0);
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   padding: 0px;
   text-align: center;
   margin: auto 0.625em;
-  justify-content: flex-end;
-}
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-  border-radius: 50%;
-}
-.fa-twitter {
-  background: #55acee;
-  border-radius: 50%;
-}
-.fa-github {
-  background-color: #dde1e7;
-  border-radius: 100%;
-}
-.fa:hover {
-  opacity: 0.9;
+  bottom: 16.5em;
+  right: 3.25em;
 }
 .whatsaap {
   border-radius: 50%;
-  height: 2.5em;
-  width: 2.5em;
+  height: 1em;
+  width: 1em;
   position: fixed;
-  bottom: 12.5em;
-  right: 6.25em;
+  bottom: 16.5em;
+  right: 3.25em;
+  background-color: white;
 }
 .whatsaap-img{
   width: 100%;
   height: 100%;
+}
+.fa-facebook {
+  background: white;
+  color: white;
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+  position: fixed;
+  bottom: 15em;
+  right: 3.25em;
+}
+.fa-twitter {
+  background: #55acee;
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+  position: fixed;
+  bottom: 13.5em;
+  right: 3.25em;
+}
+.fa-envelop-dot{
+  border-radius: 5%;
+  height: 1em;
+  width: 1em;
+  position: fixed;
+  bottom: 12em;
+  right: 3.25em;
+}
+.fa-phone-flip{
+background-color: #418101;
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+  position: fixed;
+  bottom: 10.5em;
+  right: 3.15em;
+  padding: 1px;
+  margin: 1px;
+}
+.fa-github {
+  background-color: #dde1e7;
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+  position: fixed;
+  bottom: 9em;
+  right: 3.25em;
+}
+.fa-globe{
+  background-color: white;
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+  position: fixed;
+  bottom: 7.5em;
+  right: 3.25em;
+}
+.fa-marker {
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+  position: fixed;
+  bottom: 6em;
+  right: 3.25em;
+}
+.fa:hover {
+  opacity: 0.9;
 }
 
 /* Mobile first approach */
