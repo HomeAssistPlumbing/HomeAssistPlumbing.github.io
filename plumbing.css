@@ -63,7 +63,7 @@ body{
 }
 .gaper {
     border-bottom: 0.25em solid rgba(2, 6, 33, 0.85);
-    width: 28.125em;
+    width: 100%;
     margin: 0 auto;
     margin-top: -1.563em;
     justify-items: center;
@@ -239,7 +239,7 @@ label
   text-align: center;
 }
 .breaker {
-  width: 28.125em;
+  width: 100%;
   border-bottom: 0.25em solid rgb(214, 210, 210);
   margin-top: -2.750em;
   justify-items: center;
