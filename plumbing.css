@@ -308,8 +308,8 @@ margin-bottom: 1.563em;
   background: white;
   color: white;
   border-radius: 50%;
-  height: 1em;
-  width: 1em;
+  height: 1.5em;
+  width: 1.5em;
   position: fixed;
   bottom: 15em;
   right: 3.25em;
@@ -317,16 +317,16 @@ margin-bottom: 1.563em;
 .fa-twitter {
   background: #55acee;
   border-radius: 50%;
-  height: 1em;
-  width: 1em;
+  height: 1.5em;
+  width: 1.5em;
   position: fixed;
   bottom: 13.5em;
   right: 3.25em;
 }
 .fa-envelop-dot{
   border-radius: 5%;
-  height: 1em;
-  width: 1em;
+  height: 1.5em;
+  width: 1.5em;
   position: fixed;
   bottom: 12em;
   right: 3.25em;
@@ -334,19 +334,20 @@ margin-bottom: 1.563em;
 .fa-phone-flip{
 background-color: #418101;
   border-radius: 50%;
-  height: 1em;
-  width: 1em;
+  height: 1.5em;
+  width: 1.5em;
   position: fixed;
   bottom: 10.5em;
   right: 3.15em;
   padding: 1px;
   margin: 1px;
+  border: 2px solid black;
 }
 .fa-github {
   background-color: #dde1e7;
   border-radius: 50%;
-  height: 1em;
-  width: 1em;
+  height: 1.5em;
+  width: 1.5em;
   position: fixed;
   bottom: 9em;
   right: 3.25em;
@@ -354,16 +355,16 @@ background-color: #418101;
 .fa-globe{
   background-color: white;
   border-radius: 50%;
-  height: 1em;
-  width: 1em;
+  height: 1.5em;
+  width: 1.5em;
   position: fixed;
   bottom: 7.5em;
   right: 3.25em;
 }
 .fa-marker {
   border-radius: 50%;
-  height: 1em;
-  width: 1em;
+  height: 1.5em;
+  width: 1.5em;
   position: fixed;
   bottom: 6em;
   right: 3.25em;
