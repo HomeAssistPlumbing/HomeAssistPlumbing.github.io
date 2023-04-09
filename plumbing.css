@@ -277,7 +277,8 @@ margin-bottom: 1.563em;
   padding: 0px;
   margin: auto 3.625em;
   display: inline-flex;
-  background-color: hsla(162, 21%, 88%, 0.6);
+  background-color: hsla(162, 21%, 88%, 0.2);
+  border-radius: 5px;
 }
 .whatsaap-img{
   border-radius: 50%;
