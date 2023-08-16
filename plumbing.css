@@ -72,7 +72,7 @@ body{
 }
 .gaper {
     border-bottom: 0.5rem solid rgba(2, 6, 33, 0.85);
-    width: 60rem;
+    width: 56rem;
     margin: 0 auto;
 }
 .hook {
@@ -80,7 +80,7 @@ body{
     background-color: #180cf1;
     margin: 2.5rem auto;
     font-size: 1.825rem;
-    width: fit-content;
+    max-width: 100%;
 }
 #description, #quantity, #click, #remarks, #default, #name, #cellphone, #email {
     border-bottom: 0.125rem solid rgb(73, 69, 69);
