@@ -106,8 +106,8 @@
 .center,.content
 {
   position:absolute;
-  top: 70%;
-  left:50%;
+  top: 50%;
+  left:60%;
   transform:translate(-50%, -65%);
 }
 .click-me
