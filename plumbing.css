@@ -3,7 +3,7 @@
 
  body {
     min-height: 100vh;
-    max-width: 300vw; 
+    max-width: fit-content; 
     border: 2px solid red;
     min-width: 100vw;
     display: block;
