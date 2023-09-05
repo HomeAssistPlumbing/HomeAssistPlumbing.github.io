@@ -7,7 +7,7 @@
     border: 2px solid red;
     min-width: 100vw;
     display: block;
-    position: relative;
+    position: absolute;
     background-color: rgba(2, 6, 33, 0.85);
     margin: 1.22rem auto;
     /*background-image: linear-gradient(180deg, blue, orange, green)*/
@@ -105,7 +105,7 @@
 .center,.content
 {
   position:absolute;
-  top: 140%;
+  top: 70%;
   left:50%;
   transform:translate(-50%, -65%);
 }
