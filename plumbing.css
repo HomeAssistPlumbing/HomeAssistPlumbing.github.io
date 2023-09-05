@@ -1,9 +1,13 @@
-body {
+
+
+
+ body {
     min-height: 100vh;
     max-width: 200vw; 
     border: 2px solid red;
     min-width: 100vw;
-    display: block;
+    display: block; 
+    position: absolute;
     background-color: rgba(2, 6, 33, 0.85);
     /*background-image: linear-gradient(180deg, blue, orange, green)*/
 }
