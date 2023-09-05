@@ -8,6 +8,7 @@
     min-width: 100vw;
     display: block; 
     background-color: rgba(2, 6, 33, 0.85);
+    margin: 1.22rem auto;
     /*background-image: linear-gradient(180deg, blue, orange, green)*/
 }
 .header {
