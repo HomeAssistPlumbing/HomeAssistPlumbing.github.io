@@ -299,7 +299,8 @@ label
   background-color: inherit;
   border-radius: 20%;
   border-right: none;
-}
+padding: 3rem;}
+
 .contact {
   width: 65.25rem;
   height: auto;
@@ -334,17 +335,21 @@ footer a, footer p {
   background: #3b5998;
   color: white;
   border-radius: 50%;
+padding: 3rem;
 }
 .fa-twitter {
   background: #55acee;
   border-radius: 50%;
-}
+padding: 3rem;}
+
 .fa-github {
   background-color: #dde1e7;
   border-radius: 100%;
+padding: 3rem;
 }
 .fa:hover {
   opacity: 0.9;
+background-color: orange-red;
 }
 .whatsaap {
   border-radius: 50%;
