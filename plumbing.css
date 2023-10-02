@@ -294,7 +294,7 @@ label
   height: 1.225rem;
   display: inline;
   background-color: inherit;
-  border-radius: 20%;
+  border-radius: 100%;
   border-right: none;
 border: 0.25rem solid grey;
 padding: 2rem;}
